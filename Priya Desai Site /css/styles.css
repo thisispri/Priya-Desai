@@ -3,8 +3,9 @@ margin: 0;
 text-align: center;
 }
 
-h1{
+h1 {
   margin-top: 0;
+  font-family: cursive;
 }
 
 .top-container{
@@ -13,16 +14,24 @@ h1{
   padding-top: 100px;
 }
 
-.middle-container{
-  background-color: #E4F9F6;
-  width: 200px;
-  height:200px;
+.top-container p{
+  font-family: cursive;
 }
 
+.middle-container{
+
+}
+
+
+
+.profile img {
+    height: 200px;
+    width: 160px;
+}
+
+
 .bottom-container{
-  background-color: #E4F9F7;
-  width: 200px;
-  height:200px;
+background-color: #E4F9F5;
 }
 
 .pro{
@@ -38,5 +47,9 @@ h1{
 .bottom-cloud{
   position: absolute;
   left: 300px;
+}
 
+
+ h2, h3 {
+  color: #78fae1;
 }
