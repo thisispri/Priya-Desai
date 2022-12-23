@@ -61,3 +61,21 @@ background-color: #E4F9F5;
   color: green;
   font-size: 2.5rem;
 }
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.design {
+  float:left;
+  margin-right: 30px;
+  
+}
+
+.develop{
+  float:right;
+  margin-left: 30px;
+}
