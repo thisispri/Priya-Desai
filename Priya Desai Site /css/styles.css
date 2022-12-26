@@ -1,4 +1,5 @@
 body{
+  color: #40514E;
 margin: 0;
 text-align: center;
 }
@@ -23,13 +24,17 @@ h1 {
 }
 
 .middle-container{
-
+margin: 100px 0;
 }
 
 .top-container p{
   font-size: 2rem;
 }
 
+.intro{
+  width:30%;
+  margin: auto;
+}
 
 .profile img {
     height: 200px;
@@ -39,6 +44,16 @@ h1 {
 
 .bottom-container{
 background-color: #E4F9F5;
+padding: 50px 0 20px;
+}
+
+a{
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #377F22;
 }
 
 .pro{
@@ -48,34 +63,84 @@ background-color: #E4F9F5;
 .top-cloud{
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud{
   position: absolute;
-  left: 300px;
+  left: 250px;
+  bottom: 300px;
 }
 
 
  h2, h3 {
   color: green;
   font-size: 2.5rem;
+  padding-bottom: 10px;
 }
 
 .skill-row{
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
+
+}
+
+p{
   line-height: 2;
 }
 
 .design {
   float:left;
   margin-right: 30px;
-  
+
 }
 
 .develop{
   float:right;
   margin-left: 30px;
+}
+
+hr{
+  border: dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin:40px auto 60px;
+}
+
+.btn {
+  background: grey;
+  background-image: -webkit-linear-gradient(top, grey, grey);
+  background-image: -moz-linear-gradient(top, grey, grey);
+  background-image: -ms-linear-gradient(top, grey, grey);
+  background-image: -o-linear-gradient(top, grey, grey);
+  background-image: linear-gradient(to bottom, grey, grey);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #377F22;
+  background-image: -webkit-linear-gradient(top, #377F22, #377F22);
+  background-image: -moz-linear-gradient(top, #377F22, #377F22);
+  background-image: -ms-linear-gradient(top, #377F22, #377F22);
+  background-image: -o-linear-gradient(top, #377F22, #377F22);
+  background-image: linear-gradient(to bottom, #377F22, #377F22);
+  text-decoration: none;
+}
+
+.copyright{
+font-size: 0.75rem;
+padding: 20px 0;
 }
